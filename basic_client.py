@@ -21,9 +21,4 @@ if __name__ == "__main__":
     print(data)
 
     result = call_api(url, data)
-    print(type(result))
     print(result)
-
-    if result is not None:
-        for key in result:
-            print(key, result[key])
